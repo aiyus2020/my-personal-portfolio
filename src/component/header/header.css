@@ -1,6 +1,5 @@
 header{
-    height: 100vh;
-    overflow: hidden;
+    
     padding-top: 7rem;
 }
 .header__container{
@@ -35,7 +34,7 @@ header{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;
+    position: relative;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0 ;
@@ -52,9 +51,7 @@ padding:2rem 1.5rem 1.5rem;
 }
 /*-------------for small devices-----*/
 @media  screen and (max-width:1024px){
-    header{
-        height: 68vh;
-    }
+   
 }
 /*-------------for small devices-----*/
 @media  screen and (max-width:600px){
@@ -62,7 +59,5 @@ padding:2rem 1.5rem 1.5rem;
  .scroll__down, .header__socials{
     display: none; 
 }
-header{
-    height: 100vh;
-}
+
 }
