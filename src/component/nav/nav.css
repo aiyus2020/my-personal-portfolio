@@ -1,32 +1,32 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    display: flex;
-    gap: 0.8rem;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  gap: 0.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
 }
 
 nav a {
-    background: transparent;
-    padding: 0.9rem;
-    color: var(--color-light);
-    font-size: 1.1rem;
-    display: flex;
-    transition: var(--transition);
-    border-radius: 50%;
+  background: transparent;
+  padding: 0.9rem;
+  color: var(--color-light);
+  font-size: 1.1rem;
+  display: flex;
+  transition: var(--transition);
+  border-radius: 50%;
 }
-nav a:hover{
-    background:rgba(0, 0, 0, 0.3);
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
-nav a.active{
-    background: var(--color-bg);
-    color: var(--color-white);
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
