@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/my img.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -48,7 +48,10 @@ const About = () => {
             officia, veniam totam.
           </p>
 
-          <a href="#contact" className="btn btn-primary"> Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            {" "}
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
